@@ -1,4 +1,4 @@
-# Proyecto de ingeniera de software 2 - Bankalao
+# Proyecto de Ingeniera de Software II - Bankalao
 
 ***
 
