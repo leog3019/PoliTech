@@ -1,4 +1,4 @@
-# Proyecto de Ingeniera de Software II - Bankalao
+# Proyecto de Ingeniera de Software II - PoliTech
 
 ***
 
