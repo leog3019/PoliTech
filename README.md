@@ -14,18 +14,18 @@
 - Leonardo Quishpe _(Dev Team)_
 - Anthony Guerra _(Dev Team)_
 
-## ¿De que trata?
+## ¿De qué trata?
 
 ## Arquitectura de software
 
-## Tecnologias empleados
+## Tecnologías empleadas
 
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00.svg?style=for-the-badge&logo=Firebase&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-0F0F11.svg?style=for-the-badge&logo=Angular&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 
-## Metodologias Agiles
+## Metodologías Ágiles
 
 > **XP** + **Scrum** + **KANBAN**
 
