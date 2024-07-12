@@ -3,6 +3,7 @@ import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import { LoginComponent } from '@components/login/login.component';
 import { HeaderComponent } from '@components/Shared-components/header/header.component';
+import { FooterComponent } from '@components/Shared-components/footer/footer.component';
 
 bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
@@ -10,5 +11,8 @@ bootstrapApplication(AppComponent, appConfig)
 bootstrapApplication(LoginComponent)
   .catch((err) => console.error(err));
 
-  bootstrapApplication(HeaderComponent)
+bootstrapApplication(HeaderComponent)
+  .catch((err) => console.error(err));
+
+bootstrapApplication(FooterComponent)
   .catch((err) => console.error(err));
