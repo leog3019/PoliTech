@@ -1,0 +1,22 @@
+<div class="navbar">
+    <div class="logo">
+        <img src="assets/images/neologo.png" alt="logo" id="logo-img">
+        <span class="logo-text">EPN WALLET</span>
+    </div>
+</div>
+  
+<div class="recover-container">
+    <h2>Recuperar Contraseña</h2>
+    <form [formGroup]="recoverForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <p for="codigo">
+                "Se envio un codigo al correo a **********
+                0&#64;gmail.com ingresalo para continuar con
+                la recuperacion de tu cuenta"
+            </p>
+            <input type="text" id="codigo" formControlName="codigo" required>
+            
+        </div>
+        <button type="submit" class="btn primary" [disabled]="recoverForm.invalid">Recuperar cuenta</button>
+    </form>
+</div>
