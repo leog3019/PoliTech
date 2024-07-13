@@ -1,4 +1,5 @@
 export const environment = {
+
   production: false,
   firebaseConfig: {
     apiKey: "AIzaSyCR07ZMbzcqOWwyhoCKIOCBUnsjjOVvrMY",
@@ -11,3 +12,4 @@ export const environment = {
     measurementId: "G-NG11S4S6Y0"
   }
 }
+

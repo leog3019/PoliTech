@@ -1,0 +1,48 @@
+<div class="navbar">
+    <div class="logo">
+      <img src="assets/images/neologo.png" alt="logo" id="logo-img">
+      <span class="logo-text">EPN WALLET</span>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Transferencias</a></li>
+      <li><a href="#">Movimientos</a></li>
+      <li><a href="#">Cerrar Sesión</a></li>
+    </ul>
+  </div>
+  
+  <div class="transfer-container">
+    <div class="amount-container">
+      <div class="amount-left">
+        <h2>Ingrese el monto a transferir:</h2>
+        <input type="text" id="amount" name="amount" placeholder="$0.00">
+      </div>
+      <div class="amount-right">
+        <h2>Cuenta Origen</h2>
+        <button class="account-details-btn">
+          <span>Origen</span>
+          <span>Saldo disponible</span>
+          <span>Nro. ####</span>
+          <span>$0.00</span>
+        </button>
+      </div>
+    </div>
+  
+    <h2>Elige el beneficiario:</h2>
+    <div class="beneficiary">
+      <div class="form-group">
+        <label for="beneficiary-name">Nombre beneficiario</label>
+        <input type="text" id="beneficiary-name" name="beneficiary-name" placeholder="Ingrese el nombre del beneficiario">
+      </div>
+      <div class="form-group">
+        <label for="beneficiary-account">Número de cuenta</label>
+        <input type="text" id="beneficiary-account" name="beneficiary-account" placeholder="Ingrese el número de cuenta">
+      </div>
+      <button type="button" class="btn primary">Validar</button>
+    </div>
+    <button type="button" class="btn primary next-btn">Siguiente</button>
+  </div>
+  

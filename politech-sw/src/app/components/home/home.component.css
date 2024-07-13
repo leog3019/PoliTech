@@ -1,0 +1,173 @@
+/* home.component.css */
+.navbar {
+    background-color: #2C2F48;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo-img {
+    height: 40px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px;
+  }
+  
+  .navbar .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .nav-links input {
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  
+  .btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .search-btn {
+    background-color: #fff; /* Color del botón de búsqueda */
+    color: white;
+    padding: 10px;
+    border-radius: 50%; /* Hace que el botón sea redondo */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lupa-img {
+    width: 20px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 20px;
+  }
+  
+  .btn.primary {
+    background-color: #d90429;
+    color: #fff;
+  }
+  
+  .btn.secondary {
+    background-color: #d90429;
+    color: #fff;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .carousel-control-prev {
+    left: 10px;
+  }
+  
+  .carousel-control-next {
+    right: 10px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .action-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .card-img {
+    width: 120px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 90px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #333;
+  }
+  
