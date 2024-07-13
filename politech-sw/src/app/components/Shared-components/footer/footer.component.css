@@ -1,0 +1,107 @@
+#footer{
+    width: 100%;
+    margin-top: -20px;
+    height: 495px;
+    background: black;
+    overflow: hidden;
+}
+
+#footer .wrap > div{
+    float: left;
+    width: 320px;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-family: "TrebuchetMS";
+}
+
+#footer a{
+    text-decoration: none;
+    color: #4baf50;
+    transition: all 300ms;
+}
+
+#footer h5{
+    display: block;
+    background-color: #2d394d;
+    height: 50px;
+    letter-spacing: 2px;
+    font-family: "BebasNeue";
+    line-height: 55px;
+    color: #4baf50;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 40px;
+
+}
+
+#footer h2{
+    display: block;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: "BebasNeue";
+    line-height: 55px;
+    color: #4baf50;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#footer iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#footer ul{
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+}
+
+#footer ul li{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#footer ul li a{
+    display: block;
+    height: 40px;
+    transition: all 300ms;
+}
+
+#footer ul li a:hover{
+    padding-left: 400px;
+    color: white;
+    width: 100%;
+}
+
+#footer #info a{
+    font-size: 25px;
+}
+
+#footer #info a:hover{
+    color: white;
+}
+
+#footer #info span{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#footer #autor{
+    display: block;
+    text-align: center;
+    font-family: "TrebuchetMS";
+    color: white;
+    font-size: 15px;
+}
+#footer #autor a:hover{
+    text-decoration: underline;
+}
