@@ -1,0 +1,65 @@
+<div class="navbar">
+    <div class="logo">
+        <img src="assets/images/neologo.png" alt="logo" id="logo-img">
+        <span class="logo-text">EPN WALLET</span>
+    </div>
+</div>
+
+<div class="open-account-container">
+    <div class="info-section">
+        <h2>Con nuestra Cuenta de Ahorro</h2>
+        <h3>Construye tus sueños con la libertad que necesitas</h3>
+        <p>Ábrela 100% online y disfruta de todos sus beneficios.</p>
+        <ul>
+            <li>
+                <i class="icon-benefit"></i>
+                <div>
+                    <h4>Rentabiliza y logra tus metas</h4>
+                    <p>Rentabiliza diariamente con una tasa del 5% anual.</p>
+                </div>
+            </li>
+            <li>
+                <i class="icon-benefit"></i>
+                <div>
+                    <h4>Ahorrando a tu manera</h4>
+                    <p>Ahorra sin esfuerzo, de forma periódica y abona dinero cuando quieras.</p>
+                </div>
+            </li>
+            <li>
+                <i class="icon-benefit"></i>
+                <div>
+                    <h4>Con tu dinero siempre disponible</h4>
+                    <p>Retira tu dinero cuando lo necesites sin penalidades.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="form-section">
+        <h2>¡Empecemos! Ingresa tus datos</h2>
+        <form [formGroup]="openAccountForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="cedula">Cédula</label>
+                <input type="text" id="cedula" formControlName="cedula" required>
+                <!--
+                <div
+                    *ngIf="openAccountForm.get('cedula').invalid && (openAccountForm.get('cedula').dirty || openAccountForm.get('cedula').touched)">
+                    <small *ngIf="openAccountForm.get('cedula').errors.required">El campo es requerido.</small>
+                </div>
+                -->     
+            </div>
+            <div class="form-group">
+                <label for="contactInfo">Número de celular o correo</label>
+                <input type="text" id="contactInfo" formControlName="contactInfo" required>
+                <!-- <div
+                    *ngIf="openAccountForm.get('contactInfo').invalid && (openAccountForm.get('contactInfo').dirty || openAccountForm.get('contactInfo').touched)">
+                    <small *ngIf="openAccountForm.get('contactInfo').errors.required">El campo es requerido.</small>
+                </div> -->
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="acuerdos" value="acuerdo" required> He leído y acepto los Términos y Condiciones de Servicio.
+            </div>
+            <button type="submit" class="btn primary" [disabled]="openAccountForm.invalid">Continuar</button>
+        </form>
+    </div>
+</div>
