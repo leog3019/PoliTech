@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.848);
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+button {
+    background-color: #2e90b3;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 2%;
+    
+}

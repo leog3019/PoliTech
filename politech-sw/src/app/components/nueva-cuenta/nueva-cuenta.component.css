@@ -1,0 +1,104 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #2C2F48;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #logo-img {
+    height: 40px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .open-account-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .info-section {
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .info-section h2 {
+    color: #003366;
+  }
+  
+  .info-section h3 {
+    color: #666666;
+  }
+  
+  .info-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-section ul li {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .info-section ul li i {
+    margin-right: 1rem;
+  }
+  
+  .form-section {
+    width: 40%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="radio"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group small {
+    color: red;
+  }
+  
+  .btn.primary {
+    background-color: #ffcc00;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn.primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

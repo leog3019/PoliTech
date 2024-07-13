@@ -1,0 +1,70 @@
+/* recuperar-contrasena.component.css */
+.navbar {
+    background-color: #2C2F48;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-img {
+    height: 40px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .recover-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f2f6fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recover-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .recover-container .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .recover-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .recover-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn.primary {
+    background-color: #E31B6D;
+    color: #fff;
+  }
