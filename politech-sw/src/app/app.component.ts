@@ -4,6 +4,9 @@ import { RestablecerContrasenaComponent } from "./components/restablecer-contras
 import { CambioContrasenaComponent } from "./components/cambio-contrasena/cambio-contrasena.component";
 import { GestionarCuentasComponent } from '@components/gestionar-cuentas/gestionar-cuentas.component';
 import { NuevaCuentaComponent } from "./components/nueva-cuenta/nueva-cuenta.component";
+import { LoginComponent } from '@components/login/login.component';
+import { HeaderComponent } from '@components/Shared-components/header/header.component';
+import { FooterComponent } from '@components/Shared-components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +16,10 @@ import { NuevaCuentaComponent } from "./components/nueva-cuenta/nueva-cuenta.com
     RestablecerContrasenaComponent,
     CambioContrasenaComponent,
     GestionarCuentasComponent,
-    NuevaCuentaComponent
+    NuevaCuentaComponent,
+    LoginComponent, 
+    HeaderComponent, 
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
