@@ -32,6 +32,7 @@ import { FooterComponent } from '@components/Shared-components/footer/footer.com
     
 ],
   templateUrl: './app.component.html',
+   template: '<router-outlet></router-outlet>',
   styleUrl: './app.component.css'
 })
 export class AppComponent {

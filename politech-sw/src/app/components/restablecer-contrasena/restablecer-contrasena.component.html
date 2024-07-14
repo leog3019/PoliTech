@@ -1,7 +1,7 @@
 <div class="navbar">
     <div class="logo">
         <img src="assets/images/neologo.png" alt="logo" id="logo-img">
-        <span class="logo-text">EPN WALLET</span>
+        <span class="logo-text"></span>
     </div>
 </div>
   
@@ -17,6 +17,6 @@
             <input type="text" id="codigo" formControlName="codigo" required>
             
         </div>
-        <button type="submit" class="btn primary" [disabled]="recoverForm.invalid">Recuperar cuenta</button>
+        <button type="submit" (click)="irACambioContrasena()" class="btn primary" [disabled]="recoverForm.invalid">Recuperar cuenta</button>
     </form>
 </div>

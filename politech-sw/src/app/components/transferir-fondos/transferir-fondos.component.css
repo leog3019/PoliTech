@@ -23,7 +23,7 @@
   }
   
   .sidebar {
-    width: 200px;
+    width: 250px;
     background-color: #edf2f4;
     position: fixed;
     top: 0;
@@ -59,15 +59,17 @@
   .amount-container {
     display: flex;
     justify-content: space-between;
-    background-color: #f2f6fa;
+    background-color: #edf2f4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+    margin-right: 80px;
   }
   
   .amount-left {
     flex: 1;
-    margin-right: 50px;
+    margin-right: 0;
   }
   
   .amount-right {
@@ -77,6 +79,8 @@
   .amount-left h2, .amount-right h2 {
     font-size: 16px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
   }
   
   .amount-left input {
@@ -103,6 +107,7 @@
     height: 100px;
     text-align: left;
     cursor: pointer;
+    margin-right: 300px;
   }
   
   .account-details-btn span {
@@ -111,7 +116,9 @@
   }
   
   .beneficiary {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    margin-top: 20px;
   }
   
   .form-group {
@@ -129,6 +136,7 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    margin-right: 300px;
   }
   
   .btn {
@@ -140,11 +148,19 @@
   }
   
   .btn.primary {
-    background-color: #E31B6D;
+    background-color: #Ef233c;
     color: #fff;
+    margin-left: 300px;
+    margin-top: 20px;
   }
   
   .next-btn {
-    float: right;
+    background-color: #ef233c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
   }
+   
   
