@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #134e4a;
+    margin: 0 0 20px 350px;
+}
+.main-content #slc {
+    color: #134e4a;
+    margin: 0 0 20px 350px;
+}
+
+.account-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.account {
+    background-color: #4A4A8C;
+    color: white;
+    padding: 15px;
+    margin-left: 40%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.39);
+    transition: transform 0.3s;
+    width: 500px;
+    height: 120px;
+}
+
+.account p {
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.account:nth-child(1) {
+    background-color: #14b8a6;
+}
+.account:nth-child(2) {
+    background-color: #14b8a6;
+}
+
+.account:nth-child(3) {
+    background-color: #14b8a6;
+}
+
+.account:hover {
+    transform: scale(1.05);
+    background-color: #0d9488;
+}

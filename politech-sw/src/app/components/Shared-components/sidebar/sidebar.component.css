@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #f0fdfa;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 240px;
+    background: #f0fdfa;
+    padding: 6px 16px;
+    height: 100%;
+    box-shadow: 5px 0 30px rgba(0, 0, 0, 0.1);
+}
+.sidebar .logo_content .logo {
+    display: flex;
+    color: #115e59;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    margin-left: 5px;
+    pointer-events: none;
+    opacity: 1;
+}
+.sidebar .logo_content .logo .logo_name {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.sidebar #btn {
+    position: absolute;
+    color: #115e59;
+    left: 85%;
+    top: 6px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+.sidebar .src {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+.sidebar .src input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    outline: none;
+    background: #115e59;
+    padding-left: 50px;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.sidebar .src .bx-search{
+    position: absolute;
+    z-index: 99;
+    font-size: 22px;
+    color: #5eead4;
+    margin-top: -4px;
+}
+.sidebar .src .bx-search:hover{
+    color : #5eead4;
+}
+.sidebar .src .bx-search:hover + input{
+    background: #ffffff;
+}
+.sidebar i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 ;
+    list-style: none;
+    line-height: 50px;
+}
+.sidebar ul li a{
+    color : #115e59;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.sidebar ul li a:hover{
+    color: aqua;
+    background: #0d9488;
+}
+.sidebar ul li .tooltip{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    transform: translate(-45% , -50%);
+    border-radius: 10px;
+    height: 35px;
+    width: 130px;
+    background: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    color: #242424;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.sidebar ul li:hover .tooltip{
+    opacity: 1;
+    top: 50%;
+}
