@@ -35,6 +35,7 @@ import { SidebarComponent } from '@components/Shared-components/sidebar/sidebar.
     
 ],
   templateUrl: './app.component.html',
+   template: '<router-outlet></router-outlet>',
   styleUrl: './app.component.css'
 })
 export class AppComponent {

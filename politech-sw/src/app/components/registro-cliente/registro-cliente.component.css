@@ -49,6 +49,7 @@
     display: block;
     width: 45%;
     font-weight: bold;
+    margin-left: 40px;
   }
   
   .register-container input {
@@ -56,6 +57,7 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    margin-right: 20px;
   }
   
   .btn {
@@ -67,6 +69,12 @@
   }
   
   .btn.primary {
+    background-color: #E31B6D;
+    color: #fff;
+    margin-right: 100px;
+  }
+
+  .btn.secondary {
     background-color: #E31B6D;
     color: #fff;
   }

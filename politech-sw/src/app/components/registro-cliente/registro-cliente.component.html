@@ -1,7 +1,7 @@
 <div class="navbar">
     <div class="logo">
       <img src="assets/images/neologo.png" alt="logo" id="logo-img">
-      <span class="logo-text">POLITECH</span>
+      <span class="logo-text"></span>
     </div>
   </div>
   
@@ -30,7 +30,8 @@
         <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
         <small id="password-error" style="color: red; display: none;">Las contraseñas no coinciden</small>
       </div>
-      <button type="submit" class="btn primary">Registrarme</button>
+      <button type="submit" class="btn primary">Registrar</button>
+      <button type="submit" (click)="cancelar()" class="btn secondary">Cancelar</button>
     </form>
   </div>
   
