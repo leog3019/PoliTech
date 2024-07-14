@@ -23,6 +23,17 @@ body {
     height: 100%;
     box-shadow: 5px 0 30px rgba(0, 0, 0, 0.1);
 }
+.sidebar.active {
+    width: 240px;
+}
+.sidebar .logo img {
+    height: 40px;
+    width: 145px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
 .sidebar .logo_content .logo {
     display: flex;
     color: #115e59;
@@ -33,22 +44,20 @@ body {
     pointer-events: none;
     opacity: 1;
 }
-.sidebar .logo_content .logo .logo_name {
-    font-size: 23px;
-    font-weight: 600;
-    margin: 0 10px;
-}
 .sidebar #btn {
     position: absolute;
     color: #115e59;
-    left: 85%;
-    top: 6px;
+    left: 89%;
+    top: 15px;
     font-size: 30px;
     height: 50px;
     width: 50px;
     text-align: center;
     line-height: 50px;
     transform: translate(-50%);
+}
+.sidebar.active #btn {
+    left: 85%;
 }
 .sidebar .src {
     position: relative;
@@ -92,13 +101,21 @@ body {
     font-size: 25px;
 }
 .sidebar ul{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .sidebar ul li{
     position: relative;
-    height: 50px;
+    height: 60px;
     width: 100%;
     margin: 0 ;
+    list-style: none;
+    line-height: 50px;
+}
+.sidebar ul li #close{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    margin: 0;
     list-style: none;
     line-height: 50px;
 }
@@ -135,6 +152,10 @@ body {
     transition: all 0.5s ease;
 }
 .sidebar ul li:hover .tooltip{
+    opacity: 1;
+    top: 50%;
+}
+.sidebar ul li:hover .tooltipclose{
     opacity: 1;
     top: 50%;
 }

@@ -16,7 +16,7 @@ import { TransaccionService } from './services/transaccion.service';
             AngularFirestoreModule,
             AngularFireAuthModule
         ],
-        declarations: [\
+        declarations: [
             // Remove AppComponent declaration
         ],
         providers: [

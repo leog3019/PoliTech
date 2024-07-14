@@ -3,12 +3,10 @@
 <div class="sidebar">
     <div class="logo_content">
         <div class="logo">
-            <i class='bx bxs-bank'></i>
-            <div class="logo_name">Banco PoliTech</div>
+            <img src="assets/images/neologo.png" alt="">
         </div>
         <i class='bx bx-menu' id="btn"></i>
     </div>
-
         <div class="src">
             <i class='bx bx-search'></i>
             <input type="text" placeholder="Search..">
@@ -43,8 +41,28 @@
                 </a>
                 <span class="tooltip">Movimientos</span>
             </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-door-open'></i>
+                    <span class="link_name">Cerrar Sesión</span>
+                </a>
+                <span class="tooltip">Cerrar Sesión</span>
+            </li>
         </ul>
 </div>
+
+<script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let srcBtn = document.querySelector(".bx-search");
+
+    btn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+    srcBtn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+</script>
 
 
 
