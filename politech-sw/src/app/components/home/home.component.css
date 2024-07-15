@@ -1,6 +1,6 @@
 /* home.component.css */
 .navbar {
-    background-color: #2C2F48;
+    background-color: #99f6e4;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
     align-items: center;
   }
 
-  #logo-img {
+  .logo img {
     height: 40px; /* Ajusta el tamaño del logo según tus necesidades */
     margin-right: 10px;
   }
@@ -63,15 +63,15 @@
   }
   
   .btn.primary {
-    background-color: #d90429;
+    background-color: #0f766e;
     color: #fff;
   }
   
   .btn.secondary {
-    background-color: #d90429;
+    background-color: #0f766e;
     color: #fff;
   }
-  
+
   .carousel {
     position: relative;
     max-width: 100%;
@@ -94,8 +94,10 @@
   
   .carousel-item img {
     width: 100%;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
+    filter: blur(1px);
+    filter: brightness(60%);
   }
   
   .carousel-caption {
@@ -103,8 +105,13 @@
     bottom: 150px;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center;
+    text-align: left;
     color: white;
+  }
+  .carousel-caption h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: left;
   }
   
   .carousel-control-prev,
@@ -157,10 +164,29 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 200px;
+    cursor: pointer;
+  }
+
+  .card .bx-credit-card{
+    font-size: 90px;
+    margin-top: 30px;
+  }
+  .card .bx-transfer-alt{
+    font-size: 90px;
+    margin-top: 30px;
+  }
+  .card .bx-laptop{
+    font-size: 90px;
+    margin-top: 30px;
+  }
+
+  .card .bxs-coin{
+    font-size: 90px;
+    margin-top: 30px;
   }
   
   .card-img {
-    width: 120px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
     height: 90px;
     margin-bottom: 10px;
     margin-top: 20px;

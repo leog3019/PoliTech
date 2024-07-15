@@ -9,25 +9,27 @@
 
 body {
     margin: 0;
-    padding: 0;
     background-color: #c7c7c7;
     background: linear-gradient(to right, #4d4d4d, #bbbbbb);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 80%;
 }
 
 .container {
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    position: relative;
     overflow: hidden;  
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
 }
 
 .container p {
@@ -165,7 +167,7 @@ body {
     left: 50%;
     overflow: hidden;
     transition: all 0.6s ease-in-out;
-    border-radius: 150px 0 0 100px;
+    border-radius: 50px 0 0 50px;
     z-index: 1000;
 }
 
