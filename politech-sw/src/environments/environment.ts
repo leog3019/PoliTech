@@ -1,6 +1,6 @@
 export const environment = {
-  production: false,
-  firebaseConfig: {
+  production: true,
+  firebase: {
     apiKey: "AIzaSyCR07ZMbzcqOWwyhoCKIOCBUnsjjOVvrMY",
     authDomain: "bankalao-ed14b.firebaseapp.com",
     databaseURL: "https://bankalao-ed14b-default-rtdb.firebaseio.com",

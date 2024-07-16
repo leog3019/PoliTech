@@ -1,31 +1,31 @@
-// services/cliente.service.ts
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Observable } from 'rxjs';
 import { Cliente } from '../models/cliente.model';
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: 'root'
 })
 export class ClienteService {
-    private clientesCollection = this.firestore.collection<Cliente>('clientes');
 
-    constructor(private firestore: AngularFirestore) { }
+  constructor(private firestore: AngularFirestore) { }
 
-    obtenerClientes(): Observable<Cliente[]> {
-        return this.clientesCollection.valueChanges({ idField: 'uid' });
-    }
+  // Método para agregar un nuevo cliente
+  agregarCliente(cliente: Cliente) {
+    return this.firestore.collection('clientes').add(cliente);
+  }
 
-    agregarCliente(cliente: Cliente): Promise<void> {
-        const id = this.firestore.createId();
-        return this.clientesCollection.doc(id).set({ ...cliente, uid: id });
-    }
+  // Método para obtener todos los clientes
+  obtenerClientes() {
+    return this.firestore.collection('clientes').snapshotChanges();
+  }
 
-    actualizarCliente(cliente: Cliente): Promise<void> {
-        return this.clientesCollection.doc(cliente.uid).update(cliente);
-    }
+  // Método para actualizar un cliente
+  actualizarCliente(clienteId: string, data: Partial<Cliente>) {
+    return this.firestore.collection('clientes').doc(clienteId).update(data);
+  }
 
-    eliminarCliente(uid: string): Promise<void> {
-        return this.clientesCollection.doc(uid).delete();
-    }
+  // Método para eliminar un cliente
+  eliminarCliente(clienteId: string) {
+    return this.firestore.collection('clientes').doc(clienteId).delete();
+  }
 }
